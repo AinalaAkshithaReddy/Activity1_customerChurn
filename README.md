@@ -1,19 +1,17 @@
-# Activity1_customerChurn
+ EDA
+1.  Data Inspection
+The dataset was loaded and an initial inspection was done using `df.info()` and `df.head()` to check the data structure, column types, and missing values.
 
-#Telco Customer Churn Analysis
+2. Descriptive Statistics
+We calculated basic statistical information about the numerical columns (tenure, MonthlyCharges, TotalCharges) to understand their distributions.
 
-#Project Overview
-The project is to prepare the customer churn dataset for analysis by performing data cleaning and preprocessing
+3. Correlation Analysis
+We created a correlation matrix to observe relationships between numerical variables, especially focusing on churn-related columns.
 
-#Dataset
-file: Telco-Customer-Churn.csv
-Description: this file contains the information about telecom customers including demographics , services subscribed abd churn status.
+4. Visualizations
+We used histograms and boxplots to visualize the distribution of key variables and how they relate to churn:
 
-#Preprocessing
-load dataset : 
-1. Imported dataset from telco-customer-churn.csv
-2. Removed unnecessary columns that are not required
-3. Handled missing values
-4. Converted categorical variables into numeric format using label       encoding.
-5. saved processed data to a new csv file 'preprocess.csv'.
-6. prepro.ipynb contains all the code of preprocessing.
+Distribution of Tenure, MonthlyCharges, and TotalCharges
+
+5. Missing Values
+We checked for missing values and handled any missing data found.
